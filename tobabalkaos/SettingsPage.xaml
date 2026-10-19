@@ -1,0 +1,30 @@
+﻿<Page x:Class="WpfNavigationLab.SettingsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="#F8FAFC">
+
+    <Grid Margin="40">
+
+        <StackPanel>
+
+            <TextBlock Text="Beállítások"
+                       FontSize="32"
+                       FontWeight="Bold"
+                       Foreground="#1E293B"/>
+
+
+            <CheckBox Content="Értesítések engedélyezése"
+                      FontSize="16"
+                      Margin="0,10,0,5"/>
+
+
+
+            <Button Content="Vissza"
+                    Height="45"
+                    Click="Back_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+
+</Page>
