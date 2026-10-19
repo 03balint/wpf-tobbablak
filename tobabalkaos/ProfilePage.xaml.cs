@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace WpfNavigationLab
+namespace tobabalkaos
 {
     public partial class ProfilePage : Page
     {
@@ -33,6 +33,13 @@ namespace WpfNavigationLab
             {
                 NavigationService.GoBack();
             }
+        }
+
+        private void Settings_Click(object sender, RoutedEventArgs e)
+        {
+
+                NavigationService.Navigate(new SettingsPage());
+            
         }
     }
 }

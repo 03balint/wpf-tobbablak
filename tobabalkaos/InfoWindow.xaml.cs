@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace WpfNavigationLab
+namespace tobabalkaos
 {
     public partial class InfoWindow : Window
     {
@@ -18,6 +18,17 @@ namespace WpfNavigationLab
             }
 
             MessageBox.Show($"Szia {txtName.Text.Trim()}!");
+        }
+
+        private void Title_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtName.Text.Trim() == "")
+            {
+                MessageBox.Show("Add meg a neved!");
+                return;
+            }
+
+            Title = txtName.Text.Trim();
         }
 
         private void Close_Click(object sender, RoutedEventArgs e)

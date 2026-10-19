@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace WpfNavigationLab
+namespace tobabalkaos
 {
     public partial class HomePage : Page
     {

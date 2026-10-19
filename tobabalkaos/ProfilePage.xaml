@@ -1,4 +1,4 @@
-﻿<Page x:Class="WpfNavigationLab.ProfilePage"
+﻿<Page x:Class="tobabalkaos.ProfilePage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       Background="#F8FAFC">
@@ -42,7 +42,12 @@
 
             <Button Content="Vissza"
                     Height="45"
-                    Click="Back_Click"/>
+                    Click="Back_Click"
+                    Margin="0,0,0,30"/>
+
+            <Button Content="Beállítások"
+                    Height="45"
+                    Click="Settings_Click"/>
 
         </StackPanel>
 

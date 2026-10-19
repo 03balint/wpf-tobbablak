@@ -1,0 +1,36 @@
+﻿<Window x:Class="tobabalkaos.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Súgó"
+        Height="350"
+        Width="450"
+        WindowStartupLocation="CenterOwner"
+        Background="#F8FAFC">
+
+    <Grid Margin="30">
+
+        <StackPanel>
+
+            <TextBlock Text="Súgó"
+                       FontSize="26"
+                       FontWeight="Bold"
+                       Foreground="#1E293B"
+                       HorizontalAlignment="Center"/>
+
+            <TextBlock Text="itt nincs semmi."
+                       Margin="0,10,0,25"
+                       Foreground="#64748B"
+                       HorizontalAlignment="Center"/>
+
+
+
+
+            <Button Content="Ablak bezárása"
+                    Height="45"
+                    Click="Close_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+
+</Window>
